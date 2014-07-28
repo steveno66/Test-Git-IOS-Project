@@ -21,6 +21,7 @@
 		52FC332D198684FB00767787 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52FC330F198684FB00767787 /* UIKit.framework */; };
 		52FC3335198684FB00767787 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 52FC3333198684FB00767787 /* InfoPlist.strings */; };
 		52FC3337198684FC00767787 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FC3336198684FC00767787 /* Git_TestTests.m */; };
+		52FC3342198689E400767787 /* TTTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FC3341198689E400767787 /* TTTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		52FC3332198684FB00767787 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		52FC3334198684FB00767787 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		52FC3336198684FC00767787 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		52FC3340198689E400767787 /* TTTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTest.h; sourceTree = "<group>"; };
+		52FC3341198689E400767787 /* TTTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		52FC32FF198684FB00767787 = {
 			isa = PBXGroup;
 			children = (
+				52FC3340198689E400767787 /* TTTest.h */,
+				52FC3341198689E400767787 /* TTTest.m */,
 				52FC3311198684FB00767787 /* Git Test */,
 				52FC3330198684FB00767787 /* Git TestTests */,
 				52FC330A198684FB00767787 /* Frameworks */,
@@ -253,6 +258,7 @@
 				52FC331C198684FB00767787 /* TTAppDelegate.m in Sources */,
 				52FC3318198684FB00767787 /* main.m in Sources */,
 				52FC3322198684FB00767787 /* TTViewController.m in Sources */,
+				52FC3342198689E400767787 /* TTTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
